@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #84994F;
+    --secondary-color: #FFE797;
+    --tertiary-color: #FCB53B;
+    --quaternary-color: #A72703;
+}
+
+
+body {
+    max-width:70rem;
+    width:90%;
+    margin: auto;
+    border: 2px red solid;
+
+    font-family: monospace;
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+
+   
+}
+
+main {
+    max-width: 60rem;
+    width: 80%;
+    margin: 0px;
+    padding: 1rem;
+    margin: auto;
+    border: 2px blue solid;
+}
+
+.nav {
+    max-width: 70rem;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px green solid;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    border: 2px rgb(189, 156, 49) solid;
+    width: auto;
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+h2 {
+    margin: 0px;
+    padding: 5px 0px;
+    text-justify: center;
+}
+
+h3 {
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+    font-size: 0.8rem;
+}
+
+a:hover {
+    color: rgb(173, 173, 173);
+}
+
+.prevent-select {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
